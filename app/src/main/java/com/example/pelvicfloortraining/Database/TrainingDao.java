@@ -5,7 +5,7 @@ import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
 import android.arch.persistence.room.Update;
 
-/*
+
 
 
 @Dao
@@ -23,4 +23,4 @@ public interface TrainingDao {
     @Query("SELECT COUNT(*) from `traininglog`")
     int counttraininglog();
 
-}*/
+}
